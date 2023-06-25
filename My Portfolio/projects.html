@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Raj - Portfolio- Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&family=Source+Serif+Pro:ital,wght@1,700&family=Ubuntu+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(50deg, #0b3725, #071a36);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .project {
+        margin-bottom: 30px;
+      }
+
+      .project h2 {
+        color: rgb(127, 255, 232);
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .project p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      .project ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      .project ul li {
+        margin-bottom: 5px;
+      }
+
+      .github-link {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .github-link a {
+        color: #c2d3cc;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      .github-link a:hover {
+        color: rgb(153, 161, 158);
+        text-decoration: underline;
+      }
+
+      nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background: linear-gradient(50deg, #134e36, #0b2750);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active{
+            color: rgb(127, 255, 232);
+            text-decoration: underline;
+            font-size: 1.08rem;
+        }
+        div{
+          margin: 20px;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <div class="left">Aditya's Portfolio</div>
+          <div class="right">
+              <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/about.html" target="_blank">About</a></li>
+                  <li><a href="/services.html" target="_blank">Services</a></li>
+                  <li><a href="/" class="active" target="_blank">Projects</a></li>
+                  <li><a href="/contactme.html " target="_blank">Contact Me</li> </a></li>
+              </ul>
+          </div>
+
+      </nav>
+  </header>
+
+    <div>
+    <h1>Projects</h1>
+
+    <div class="project">
+      <h2>Restaurant Management System</h2>
+      <p>
+        A web-based system developed using Python with SQL utilizing PostgreSQL
+        and Postman API.
+      </p>
+      <ul>
+        <li>
+          Allows restaurant staff to manage orders, menus, and customer
+          information.
+        </li>
+        <li>
+          Includes features for table reservation, order tracking, and
+          generating invoices.
+        </li>
+        <li>
+          Integration with Postman API for seamless communication between
+          different modules.
+        </li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Unit Converter App</h2>
+      <p>A web application built with HTML, CSS, and JavaScript.</p>
+      <ul>
+        <li>
+          Enables users to convert various units such as length, weight,
+          temperature, and more.
+        </li>
+        <li>
+          Provides a user-friendly interface with intuitive controls and
+          real-time conversion results.
+        </li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Timer and Stopwatch App</h2>
+      <p>An interactive web page created using HTML, CSS, and JavaScript.</p>
+      <ul>
+        <li>Features a timer functionality for countdowns and alerts.</li>
+        <li>Includes a stopwatch to measure elapsed time accurately.</li>
+      </ul>
+    </div>
+
+    <div class="github-link">
+      <a href="https://github.com/adityaraj1311" target="_blank"
+        >Click here for more Projects and source code</a
+      >
+    </div>
+    </div>
+  </body>
+</html>

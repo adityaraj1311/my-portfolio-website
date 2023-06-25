@@ -1,0 +1,299 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(50deg, #0b3725, #071a36) !important;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background: linear-gradient(50deg, #134e36, #0b2750);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active{
+            color: rgb(127, 255, 232);
+            text-decoration: underline;
+            font-size: 1.08rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(167, 229, 218);
+            height: 1.2px;
+            margin: 60px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.4rem;
+        }
+
+        .leftSection .btn {
+            padding: 9px;
+            color: white;
+            margin-top: 60px;
+            margin-right: 30px;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(14 39 29);
+            border: 1px solid rgb(127, 255, 232);
+            border-radius: 7px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover {
+            background: rgb(127, 255, 232);
+            box-shadow: 0 0 35px rgb(127, 255, 232);
+            color: black;
+            padding: 11px;
+        }
+
+        .rightSection img {
+            width: 70%;
+        }
+
+        .yellow {
+            color: rgb(127, 255, 232);
+        }
+
+        .text-gray {
+            color: rgb(157, 154, 154);
+        }
+
+        #element {
+            color: rgb(127, 255, 232);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 75vh;
+        }
+
+        .secondSection h1 {
+            color: rgb(127, 255, 232);
+            font-size: 1.7rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 52px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 89px;
+            width: 1px;
+            background-color: white;
+            margin: 0 7.4vw;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -36px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 91px;
+            color: rgb(157, 154, 154);
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+            background: linear-gradient(50deg, #0f271e, #02142f);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+            position: relative;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li a{
+            font-size: 13px;
+            text-decoration: none;
+            color: rgb(199 218 209);
+        }
+
+        .footer ul li a:hover{
+            font-size: 14px;
+            text-decoration: underline;
+            color: rgb(118, 125, 129);
+        }
+
+        .footer h3{
+            font-size: 17px;
+            text-align: unset;
+            margin-bottom: 2px;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            font-size: 11px;
+            color: rgb(156, 153, 153);
+            padding: 12px 0;
+        }
+
+        .contactForm {
+            padding: 0 54px;
+            padding-top: 150px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contactForm h1 {
+            font-family: 'Poppins', sans-serif;
+            padding: 12px 0;
+            /* text-align: center; */
+        }
+
+        .contactForm form div {
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contactForm form div input {
+            width: 34vw;
+            border: 3px black;
+            border-radius: 5px;
+            margin: 18px 0 0 0;
+            padding: 8px;
+        }
+
+        #emailHelp {
+            font-size: 8px;
+            color: gray;
+            margin: 0 5px;
+        }
+
+        #form-check {
+            flex-direction: row;
+        }
+
+        #form-check input {
+            width: 34px;
+            margin: 3px 0;
+        }
+        
+        @media screen and (max-width: 1400px)
+        {
+            .box{
+                flex-direction: column;
+            }
+
+            .secondSection .vertical{
+                height: unset;
+            }
+
+            .vertical-title, .vertical-desc{
+                left: 38px;
+            }
+
+            .secondSection .box{
+                width: 45vw;
+            } 
+
+            nav{
+                flex-direction: column;
+            }
+
+            .firstSection{
+                flex-direction: column-reverse ;
+            }
+
+            .rightSection img{
+                width: 38vw;
+                margin-bottom: 60px;
+            }
+
+            .image-top{
+                top: 125px;
+            }
+
+            .leftSection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .secondSection{
+                height: 130vh;
+            }
+
+            .rightSection{
+                width: 681px !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            .secondSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body{
+                min-width: fit-content;
+            }
+        }

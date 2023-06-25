@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Raj - Portfolio- Contact Me</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&family=Source+Serif+Pro:ital,wght@1,700&family=Ubuntu+Mono:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background: linear-gradient(50deg, #134e36, #0b2750);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active{
+            color: rgb(127, 255, 232);
+            text-decoration: underline;
+            font-size: 1.08rem;
+        }
+        div{
+          margin: 20px;
+        }
+
+        .left{
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        button{
+          font-family: 'Poppins', sans-serif;
+          padding: 9px;
+          margin-left: 20px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(14 39 29);
+            border: 1px solid rgb(127, 255, 232);
+            border-radius: 7px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: rgb(127, 255, 232);
+            box-shadow: 0 0 35px rgb(127, 255, 232);
+            color: black;
+            padding: 11px;
+        }
+</style>
+<body>
+  <header>
+    <nav>
+        <div class="left">Aditya's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html" target="_blank">About</a></li>
+                <li><a href="/services.html" target="_blank">Services</a></li>
+                <li><a href="/projects.html" target="_blank">Projects</a></li>
+                <li><a href="/" class="active" target="_blank">Contact Me</li> </a></li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+    <div class="container">
+    <div class="sidebar">
+    </div>
+    <div class="main">
+        <div class="contactForm">
+            <h1>Contact me for work / general enqueries</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="clientPhone" class="form-label">Phone</label>
+                  <input type="password" class="form-control" id="clientPhone">
+                </div>
+                <div class="mb-3" id="form-check">
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
